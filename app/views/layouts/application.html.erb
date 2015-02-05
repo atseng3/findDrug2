@@ -10,7 +10,21 @@
 <body>
 <div class="container">
 	<%= flash[:notice] ? flash[:notice] : '' %>
-	<%= yield %>
+    <core-drawer-panel>
+    <core-header-panel drawer>
+      <core-toolbar>
+        <div>SimplyFound</div>
+      </core-toolbar>
+      <div> Drawer content... </div>
+    </core-header-panel>
+    <core-header-panel main>
+      <core-toolbar>
+        <core-icon-button icon="menu" core-drawer-toggle></core-icon-button>
+        <div>Search</div>
+      </core-toolbar>
+      <div> Main content... </div>
+    </core-header-panel>
+  </core-drawer-panel>
 </div>
 </body>
 </html>

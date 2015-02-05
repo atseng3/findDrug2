@@ -33,6 +33,9 @@ end
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+# user bower
+gem 'bower-rails'
+
 # use polymer
 gem 'emcee'
 
